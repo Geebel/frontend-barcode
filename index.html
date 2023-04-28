@@ -1,31 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<html>
+    <head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+    </head>
+    <title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    img{border-radius: 20px;}
-  </style>
-</head>
-<body>
-  <center>
-<img src="image-qr-code.png" width="400" height="400">
-</center>
-  <h3 style="text-align: center;">Improve your front-end<br> skills by building projects</h3>
-
-  <p style="text-align: center;color: grey;">Scan the QR code to visit Frontend<br> Mentor and take your coding skills to<br> the next level</p>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Omogbolahan Ojo</a>.
-  </div>
-</body>
+    </title>
+    <body>
+        <h3>
+            USER REGISTRATION FORM
+        </h3>
+        <form>
+            USERNAME:<input type="text" name="username"><br><br>
+            PASSWORD:<input type="password" name="password"><br><br>
+            CONFIRM PASSWORD: <input type="password" name="confirm password"><br><br>
+            Gender: <input type="radio" name="gender" value="Male">
+            Male <input type="radio" name="gender" value="Female"> Female<br><br>
+            Phone Number: <input type="tel" name="Phone Number"> <br><br>
+            Email: <input type="email" name="email"><br><br>
+            Date Of Birth: <input type="date" name="DOB"><br><br>
+            Course:<input type="checkbox" name="course1" value="coding"> Coding 
+            <input type="checkbox" name="course2" value="course2"> Graphics
+            <input type="checkbox" name="course3" value="course3"> Data Science<br><br>
+            Upload WAEC Result: <input type="file" name="upload"><br><br>
+            No of Courses: <input type="number" name="coursenumber" min="3" max="10"><br><br>
+            Age: <input type="range" name="age" min="18" max="40"><br><br>
+            Search: <input type="search" name="Searchbox"><br><br>
+            URL: <input type="url" name="url"><br><br>
+            Colour: <input type="colour" name="colour"><br><br>
+            Week: <input type="week" name="week"><br><br>
+            Month: <input type="month" name="month"><br><br>
+            Date&Time: <input type="datetime-local" name="datetime"><br><br>
+            Year: <input type="Year" name="Year"><br><br>
+            <input type="submit" value="REGISTER">
+            <input type="button" value="REGISTER">
+            <input type="reset" value="CLEAR">
+            Select Image: <input type="file" accept="image/*" capture="camera">
+        </form>
+    </body>
 </html>
